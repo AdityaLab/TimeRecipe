@@ -17,7 +17,7 @@ Please follow the training scripts provided in [TimeRecipeResults](https://githu
 To train a single setup
 
 ```
-python -u run.py --seed 2021 --task_name long_term_forecast --use_norm "True" --use_decomp "True" --fusion "temporal" --emb_type "token" --ff_type "mlp" --{Other Args}$
+python -u run.py --seed 2021 --task_name long_term_forecast --use_norm "True" --use_decomp "True" --fusion "temporal" --emb_type "token" --ff_type "mlp" --${Other Args}$
 ```
 
 To train a batch of setup
@@ -43,6 +43,8 @@ All raw and processes results can be found at [TimeReciperesults](https://github
 3. `./notebook/cor_ana_m.ipynb`: Perform statistic testing for the correlation analysis, using the combined csv file (Paper Table 3).
 4. `./notebook/lightgbm_m.ipynb`: Perform the training-free model selection using a LightGBM model and pre-trained results (Paper Table 2).
 5. `./notebook/count_surpass.ipynb`: Count the number of setups that TimeRecipe outperforms SOTA (Paper Section 4.1.1).
+
+For data properties calculation, please follow: [[Code](https://github.com/decisionintelligence/TFB/tree/master/characteristics_extractor)], [[Setup(en)](https://github.com/decisionintelligence/TFB/blob/master/characteristics_extractor/Readme_en.md)], [[Setup(cn)](https://github.com/decisionintelligence/TFB/blob/master/characteristics_extractor/Readme_chn.md)].
 
 ## Contact
 
