@@ -12,7 +12,7 @@ Paper + Appendix: [TBD]
 
 ### Training TimeRecipe
 
-Please follow the training scripts provided in [TimeRecipeResults](https://github.com/AdityaLab/TimeRecipeResults)
+Please follow the training scripts provided in [TimeRecipeResults](https://github.com/AdityaLab/TimeRecipeResults).
 
 To train a single setup
 
@@ -34,11 +34,20 @@ bash run_2021.sh
 
 ### TimeRecipe Results
 
-All raw and processes results can be found at [TimeReciperesults](https://github.com/AdityaLab/TimeRecipeResults)
+All raw and processes results can be found at [TimeReciperesults](https://github.com/AdityaLab/TimeRecipeResults).
+
+### Results Post Processing
+
+1. `./notebook/error_rank.ipynb`: Convert the raw forecasting results over different random seeds to ranked results with averaged error and std.
+2. `./notebook/read_res_m.ipynb`: Filter and combine the top 30 ranked results (`top_k=30`) from different datasets to a single csv file.
+3. `./notebook/cor_ana_m.ipynb`: Perform statistic testing for the correlation analysis, using the combined csv file (Paper Table 3).
+4. `./notebook/lightgbm_m.ipynb`: Perform the training-free model selection using a LightGBM model and pre-trained results (Paper Table 2).
+5. `./notebook/count_surpass.ipynb`: Count the number of setups that TimeRecipe outperforms SOTA (Paper Section 4.1.1).
 
 ## Contact
 
 If you have any questions about the code, please contact Zhiyuan Zhao at `leozhao1997[at]gatech[dot]edu`.
+
 
 ## Acknowledgement
 
