@@ -12,7 +12,7 @@ Paper + Appendix: [TBD]
 
 ### Training TimeRecipe
 
-Please follow the training scripts provided in [TBD]
+Please follow the training scripts provided in [TimeRecipeResults](https://github.com/AdityaLab/TimeRecipeResults)
 
 To train a single setup
 
@@ -34,7 +34,7 @@ bash run_2021.sh
 
 ### TimeRecipe Results
 
-All raw and processes results can be found at [TBD]
+All raw and processes results can be found at [TimeReciperesults](https://github.com/AdityaLab/TimeRecipeResults)
 
 ## Contact
 
