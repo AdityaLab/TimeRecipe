@@ -56,7 +56,12 @@ If you have any questions about the code, please contact Zhiyuan Zhao at `leozha
 If you find our work useful, please cite our work:
 
 ```
-[TBD]
+@article{zhao2025timerecipe,
+  title={TimeRecipe: A Time-Series Forecasting Recipe via Benchmarking Module Level Effectiveness},
+  author={Zhao, Zhiyuan and Ni, Juntong and Xu, Shangqing and Liu, Haoxin and Jin, Wei and Prakash, B Aditya},
+  journal={arXiv preprint arXiv:2506.06482},
+  year={2025}
+}
 ```
 
 This work also builds on previous works, please consider cite these works properly.
