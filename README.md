@@ -17,7 +17,7 @@ Please follow the training scripts provided in [TimeRecipeResults](https://githu
 To train a single setup
 
 ```
-python -u run.py --seed 2021 --task_name long_term_forecast --use_norm "True" --use_decomp "True" --fusion "temporal" --emb_type "token" --ff_type "mlp" --${Other Args}$
+python -u run.py --seed 2021 --task_name long_term_forecast --use_norm True --use_decomp True --fusion temporal --emb_type token --ff_type mlp --${Other Args}$
 ```
 
 To train a batch of setup
