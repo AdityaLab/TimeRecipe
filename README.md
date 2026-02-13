@@ -6,6 +6,8 @@ Implementation of the paper "TimeRecipe: A Time-Series Forecasting Recipe via Be
 
 Authors: Zhiyuan Zhao, Juntong Ni, Haoxin Liu, Shangqing Xu, Wei Jin, B.Aditya Prakash
 
+Placement: ICLR 2026
+
 Paper + Appendix:  https://arxiv.org/abs/2506.06482
 
 ## Usage
